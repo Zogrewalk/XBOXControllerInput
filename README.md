@@ -9,7 +9,7 @@ But you do have to import time to make the durations work
 
 To learn more about the XBOX Input, visit this website: https://pypi.org/project/vgamepad/
 
-The sticks work with x and y coordinates, so if you want the stick to move to the left, you can give it a value of 32767 to move it all the way to the left. -32768 to move it all the way to the right.
+The sticks work with x and y coordinates, so if you want the stick to move to the left, you can give it a value of 32767 to move it all the way to the left. -32768 to move it all the way to the right. Same goes for the y axis.
 Here is an example code to move the left stick to the left for 2 seconds:
 
 XBOXControllerInput.LeftStick(2, 0, 32767, 0, 0)
